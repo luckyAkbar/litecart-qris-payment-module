@@ -53,10 +53,25 @@ Here are the details of every available configuration value
 10. Payment Hint -> If you want to give custom payment hint to be shown as a 'how to pay' using QRIS. the default value are shown like this ![hint sample](./assets/sample-hint.png). The default value is ``` Please transfer the exact payment amount to this QRIS code using your banking / e-wallet application of choice ```
 11. Priority -> Process this module in the given priority order.
 
+### Optional features instalation
+
+This module also offers optional feature to add a link to your store QRIS page. But because of this will have a huge chance of causing collition with existing file, I choose to not include this in the default instalation. So to install this feature, follow these steps
+1. Open the optional file [here](./optional/printable_order_copy.inc.php)
+2. Notice that this is the default page for printable copy provided by litecart
+3. Find the code surrounded by this comment
+```
+// start of QRIS link on printable copy
+...
+// end of QRIS link on printable copy
+```
+4. Between those comments are a new footer link to be shown on printable copy for customer. Place it the same with mine, or you can place it on different position if you want.
+5. Check the printable copy's footer or look at the sample in Screenshot number 3
+
 ## Screenshots
 
 1. QRIS payment option on checkout page ![qris on action](./assets/qris-on-checkout.png)
 2. QRIS code shown to customer after checkout ![qris after checkout](./assets/qris-after-checkout.png)
+3. Printable copy with custom footer for qris page: ![image](./assets/printable-copy-sample.png)
 
 ## Consideration
 
