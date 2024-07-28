@@ -64,7 +64,8 @@ This module also offers optional feature to add a link to your store QRIS page. 
 ...
 // end of QRIS link on printable copy
 ```
-4. Between those comments are a new footer link to be shown on printable copy for customer. Place it the same with mine, or you can place it on different position if you want.
+4. Between those comments are a the code to show a new footer link for your store QRIS code. use this code for step number 5
+5. Update your current printable copy file located at ``` public_html/includes/templates/default.catalog/pages/printable_order_copy.inc.php ```
 5. Check the printable copy's footer or look at the sample in Screenshot number 3
 
 ## Screenshots
