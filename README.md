@@ -19,7 +19,7 @@ If you encouter errors or any problems during instalation and usage of this modu
 
 ## Live sample
 
-I personally use this module on my e-commerce site. You can visit my site here: [live sample](https://link.0ad.xyz/store)
+I personally use this module on my e-commerce site. You can visit my site here: [live sample](https://link.0ad.xyz/store). Or you can also visit the litecart addons page for this module here [litecart addons for qris](https://www.litecart.net/en/addons/713/qris)
 
 ## How to install
 
