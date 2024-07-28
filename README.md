@@ -29,7 +29,7 @@ Before installing this module, you must have:
 
 To install this module is similar with doing other module instalation.
 1. Take a look inside the [public_html](./public_html) and you will found 3 file. You can copy them manually and place them inside the same path as I do in this repo.
-2. Upload your store's QRIS to your litecart folder. Here I give example to place it under ```public_html/images/payment/qris-qr-code.png```. Please remember your path of choice as it will be required in the instalation page later.
+2. Upload your store's QRIS to your litecart folder. It must be placed and named like this ```public_html/images/payment/qris-qr-code.png```, otherwise the QRIS page can't render the QRIS image correctly.
 3. Upload your  QRIS icon of choice just like before. In this example, I choose to place it here ```public_html/images/payment/qris-icon.png```. Please remember your path of choice as it will be required in the instalation page later.
 4. Go to your admin panel
 5. Access the Module menu
